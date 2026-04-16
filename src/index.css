@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+
+.form_validate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 420px;
+  
+}
+
+
+
+.inner_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn-element {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+button:hover {
+  background: #357abd;
+
+}
+
+p{
+  color:red;
+  text-align: right;
+}
+
+
